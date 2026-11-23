@@ -19,10 +19,10 @@ export const games = [
   {
     id: "connect4",
     title: "Connect Four",
-    description: "[Placeholder]",
-    goal: "[Placeholder]",
-    controls: "[Placeholder]",
-    rules: "[Placeholder]"
+    description: "A two-player game where you race to connect four of your discs in a row.",
+    goal: "Drop discs to build toward a line of four while blocking your opponent.",
+    controls: "Click a column to drop a disc, or use the Left/Right arrow keys (or A/D) to move and Space or Enter to drop.",
+    rules: "Players take turns dropping one disc at a time. The first player to line up four of their own discs horizontally, vertically, or diagonally wins."
   },
   {
     id: "tetris",
