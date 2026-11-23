@@ -17,16 +17,8 @@ export const games = [
     rules: "Collect yellow food to grow and increase your score. Avoid hitting the walls or your own body. The game gradually speeds up as your score increases."
   },
   {
-    id: "flappybird",
-    title: "Flappy Bird",
-    description: "[Placeholder]",
-    goal: "[Placeholder]",
-    controls: "[Placeholder]",
-    rules: "[Placeholder]"
-  },
-  {
-    id: "blackjack",
-    title: "Black Jack",
+    id: "connect4",
+    title: "Connect Four",
     description: "[Placeholder]",
     goal: "[Placeholder]",
     controls: "[Placeholder]",
@@ -35,10 +27,10 @@ export const games = [
   {
     id: "tetris",
     title: "Tetris",
-    description: "[Placeholder]",
-    goal: "[Placeholder]",
-    controls: "[Placeholder]",
-    rules: "[Placeholder]"
+    description: "Make full lines of tiles with the falling blocks to clear lines and rack up a high score.",
+    goal: "Clear as many lines as you can to try and get the highest score.",
+    controls: "Use the left and right arrow keys to move the falling blocks. Use up to rotate them and down to make them fall faster for more points.",
+    rules: "Clear the board by filling all of a row's tiles. The pieces fall faster as your score goes higher."
   },
   {
     id: "sudoku",
